@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uca.controllers.ScenesController">
+   <children>
+      <Label layoutX="184.0" layoutY="26.0" text="Malla del Sistema">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="267.0" fitWidth="282.0" layoutX="14.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Malla.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="312.0" layoutY="156.0" text="Numero de Puntos: 8">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="312.0" layoutY="112.0" text="Numero de Elementos: 6">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_next_tabla" layoutX="509.0" layoutY="14.0" mnemonicParsing="false" onAction="#ScenetoTabla" prefHeight="29.0" prefWidth="77.0" text="Next" />
+      <Button fx:id="btn_next_cond" onAction="#ScenetoCond" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="70.0" text="Back" />
+   </children>
+</AnchorPane>

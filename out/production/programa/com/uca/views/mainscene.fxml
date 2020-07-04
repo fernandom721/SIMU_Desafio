@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uca.controllers.Controller">
+   <children>
+      <Label layoutX="58.0" layoutY="30.0" text="DESAFIO DE PROGRAMACION">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_start" layoutX="243.0" layoutY="310.0" mnemonicParsing="false" onAction="#StartMenu" prefHeight="36.0" prefWidth="114.0" text="Start" />
+      <Label layoutX="417.0" layoutY="378.0" prefHeight="16.0" prefWidth="169.0" text="Fernando Martínez 00076617" />
+   </children>
+</AnchorPane>

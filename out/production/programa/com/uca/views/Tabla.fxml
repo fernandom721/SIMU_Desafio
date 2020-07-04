@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uca.controllers.ScenesController">
+   <children>
+      <Label layoutX="139.0" layoutY="40.0" text="Tabla de Conectividades">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="235.0" fitWidth="354.0" layoutX="123.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Tabla de Conectividades.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_next_mef1" layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#ScenetoMEF1" text="Next" />
+      <Button fx:id="btn_next_malla" onAction="#ScenetoMalla" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

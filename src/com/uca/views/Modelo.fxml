@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uca.controllers.ScenesController">
+   <children>
+      <Label layoutX="244.0" layoutY="35.0" text="Modelo">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="133.0" fitWidth="412.0" layoutX="95.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/modelo.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_next_dominio" layoutX="524.0" layoutY="14.0" mnemonicParsing="false" onAction="#ScenetoDominio" text="Next" />
+   </children>
+</AnchorPane>

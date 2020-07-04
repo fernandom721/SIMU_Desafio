@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uca.controllers.ScenesController">
+   <children>
+      <Button fx:id="btn_next_ensm2" layoutX="545.0" layoutY="14.0" mnemonicParsing="false" onAction="#ScenetoEnsamblaje2" text="Next" />
+      <Label layoutX="174.0" layoutY="21.0" text="Proceso de Ensamblaje">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TabPane layoutX="14.0" layoutY="57.0" prefHeight="334.0" prefWidth="578.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Elemento 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <SplitPane dividerPositions="0.6458333333333334" layoutX="-1.0" layoutY="1.0" prefHeight="303.0" prefWidth="578.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="409.0">
+                                 <children>
+                                    <ImageView fitHeight="123.0" fitWidth="488.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/elemento 1.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="146.0" layoutY="26.0" text="Tabla del Elemento">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="170.0" fitWidth="448.0" layoutX="14.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/TABLA1.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="148.0" layoutY="22.0" text="Tabla de Ensamblaje">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Elemento 2">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <children>
+                            <SplitPane dividerPositions="0.5243055555555556" layoutX="-1.0" layoutY="1.0" prefHeight="303.0" prefWidth="578.0">
+                                <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Label layoutX="129.0" layoutY="23.0" text="Tabla del Elemento">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="124.0" fitWidth="458.0" layoutX="10.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/elemento 2.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Label layoutX="119.0" layoutY="21.0" text="Table de Ensamblaje">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="252.0" fitWidth="463.0" layoutX="14.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/TABLA2.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                                </items>
+                            </SplitPane>
+                        </children>
+                    </AnchorPane>
+                </content>
+            </Tab>
+            <Tab text="Elemento 3">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <children>
+                            <SplitPane dividerPositions="0.4444444444444444" layoutX="-1.0" layoutY="1.0" prefHeight="303.0" prefWidth="578.0">
+                                <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Label layoutX="159.0" layoutY="21.0" text="Tabla del Elemento">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="84.0" fitWidth="501.0" layoutX="14.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/elemento%203.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Label layoutX="151.0" layoutY="20.0" text="Tabla de Ensamblaje">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="130.0" fitWidth="508.0" layoutX="14.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/TABLA3.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                                </items>
+                            </SplitPane>
+                        </children>
+                    </AnchorPane>
+                </content>
+            </Tab>
+            <Tab text="Elemento 4">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <children>
+                            <SplitPane dividerPositions="0.5190972222222222" layoutX="-1.0" layoutY="1.0" prefHeight="303.0" prefWidth="578.0">
+                                <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Label layoutX="156.0" layoutY="14.0" text="Tabla del Elemento">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="220.0" fitWidth="470.0" layoutX="23.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/elemento%204.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Label layoutX="175.0" layoutY="14.0" text="Tabla de Ensamblaje">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="123.0" fitWidth="488.0" layoutX="7.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/TABLA4.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                                </items>
+                            </SplitPane>
+                        </children>
+                    </AnchorPane>
+                </content>
+            </Tab>
+            <Tab text="Elemento 5">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <children>
+                            <SplitPane dividerPositions="0.4652777777777778" layoutX="-1.0" layoutY="1.0" prefHeight="303.0" prefWidth="578.0">
+                                <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Label layoutX="171.0" layoutY="14.0" text="Tabla del Elemento">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="262.0" fitWidth="482.0" layoutX="15.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/elemento%205.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Label layoutX="166.0" layoutY="20.0" text="Tabla de Ensamblaje">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="178.0" fitWidth="500.0" layoutX="6.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/TABLA5.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                                </items>
+                            </SplitPane>
+                        </children>
+                    </AnchorPane>
+                </content>
+            </Tab>
+            <Tab text="Elemento 6">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <children>
+                            <SplitPane dividerPositions="0.4635416666666667" layoutX="-1.0" layoutY="1.0" prefHeight="303.0" prefWidth="578.0">
+                                <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Label layoutX="173.0" layoutY="14.0" text="Tabla del Elemento">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="189.0" fitWidth="492.0" layoutX="11.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/elemento%206.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Label layoutX="161.0" layoutY="14.0" text="Tabla de Ensamblaje">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="175.0" fitWidth="530.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resources/ensamblaje/TABLA6.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                                </items>
+                            </SplitPane>
+                        </children>
+                    </AnchorPane>
+                </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button fx:id="btn_next_comp6" onAction="#ScenetoComp6" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

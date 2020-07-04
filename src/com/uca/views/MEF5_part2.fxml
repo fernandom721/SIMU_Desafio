@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uca.controllers.ScenesController">
+   <children>
+      <Button fx:id="btn_next_mef6" layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#ScenetoMEF6" text="Next" />
+      <Label layoutX="235.0" layoutY="27.0" text="MEF Paso 5">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <SplitPane dividerPositions="0.45018450184501846" layoutX="26.0" layoutY="128.0" prefHeight="239.0" prefWidth="544.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="139.0" fitWidth="448.0" layoutX="23.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/MEF5-7.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="237.0" prefWidth="135.0">
+               <children>
+                  <ImageView fitHeight="155.0" fitWidth="276.0" layoutX="109.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/MEF5-8.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Label layoutX="218.0" layoutY="81.0" text="Forma Fuerte (S.F.)">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_next_mef5" onAction="#ScenetoMEF5" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

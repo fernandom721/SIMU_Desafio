@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uca.controllers.ScenesController">
+   <children>
+      <Button fx:id="btn_next_comp5" layoutX="545.0" layoutY="15.0" mnemonicParsing="false" onAction="#ScenetoComp5" text="Next" />
+      <Label layoutX="104.0" layoutY="18.0" text="Componentes de las Matrices">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TabPane layoutX="22.0" layoutY="90.0" prefHeight="281.0" prefWidth="554.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Integral">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="199.0" prefWidth="485.0">
+                     <children>
+                        <ImageView fitHeight="213.0" fitWidth="465.0" layoutX="45.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/Componentes/y1.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Parte 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="247.0" fitWidth="459.0" layoutX="48.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/Componentes/y2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Parte 2">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="199.0" prefWidth="485.0">
+                     <children>
+                        <ImageView fitHeight="251.0" fitWidth="317.0" layoutX="152.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/Componentes/y3.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                </content>
+            </Tab>
+            <Tab text="Parte 3">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="174.0" fitWidth="524.0" layoutX="15.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/Componentes/y4.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                </content>
+            </Tab>
+            <Tab text="Parte 4">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="199.0" prefWidth="485.0">
+                     <children>
+                        <ImageView fitHeight="165.0" fitWidth="514.0" layoutX="20.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/Componentes/y5.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                </content>
+            </Tab>
+            <Tab text="Parte 5">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="255.0" fitWidth="496.0" layoutX="29.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/Componentes/y6.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                </content>
+            </Tab>
+            <Tab text="Parte 6">
+                <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="199.0" prefWidth="485.0">
+                     <children>
+                        <ImageView fitHeight="182.0" fitWidth="384.0" layoutX="98.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/Componentes/y7.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Label layoutX="277.0" layoutY="63.0" text="Matriz Y" />
+      <Button fx:id="btn_next_comp3" onAction="#ScenetoComp3" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

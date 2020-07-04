@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uca.controllers.ScenesController">
+   <children>
+      <Button fx:id="btn_next_mef5p2" layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#ScenetoMEF5p2" text="Next" />
+      <Label layoutX="224.0" layoutY="17.0" text="MEF Paso 5">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Accordion layoutX="38.0" layoutY="85.0" prefHeight="298.0" prefWidth="517.0">
+        <panes>
+          <TitledPane animated="false" text="Definimos las Integrales">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="194.0" layoutY="6.0" text="Aplicamos las integrales" />
+                        <ImageView fitHeight="83.0" fitWidth="152.0" layoutX="58.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/MEF5-1.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="122.0" fitWidth="139.0" layoutX="322.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/MEF5-2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Expandimos La Integral">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="200.0" fitWidth="485.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/MEF5-3.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Repartimos N">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="190.0" fitWidth="479.0" layoutX="18.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/MEF5-4.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+            </content>
+          </TitledPane>
+            <TitledPane animated="false" text="Repartimos la Integral">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="175.0" fitWidth="491.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/MEF5-5.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+              </content>
+            </TitledPane>
+            <TitledPane animated="false" text="Devolvemos todo a su posicion original">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="141.0" fitWidth="481.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/MEF5-6.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </TitledPane>
+        </panes>
+      </Accordion>
+      <Button fx:id="btn_next_mef4" onAction="#ScenetoMEF4" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uca.controllers.ScenesController">
+   <children>
+      <Button fx:id="btn_next_end" layoutX="545.0" layoutY="14.0" mnemonicParsing="false" onAction="#ScenetoEND" text="Next" />
+      <Label layoutX="224.0" layoutY="17.0" text="MEF Paso 8">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="144.0" fitWidth="557.0" layoutX="22.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/MEF8-2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="147.0" fitWidth="445.0" layoutX="78.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/MEF8-3.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_next_mef8" onAction="#ScenetoMEF8p2" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

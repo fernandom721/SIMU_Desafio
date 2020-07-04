@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uca.controllers.ScenesController">
+   <children>
+      <Button fx:id="btn_next_mef5" layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#ScenetoMEF5" text="Next" />
+      <Label layoutX="224.0" layoutY="27.0" text="MEF Paso 4">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="232.0" fitWidth="275.0" layoutX="166.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/MEF4.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_next_mef3" onAction="#ScenetoMEF3" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

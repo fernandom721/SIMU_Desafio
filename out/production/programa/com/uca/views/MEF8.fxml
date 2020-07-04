@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uca.controllers.ScenesController">
+   <children>
+      <Button fx:id="btn_next_mef8p2" layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#ScenetoMEF8p2" text="Next" />
+      <Label layoutX="224.0" layoutY="17.0" text="MEF Paso 8">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="71.0" text="Aplicando Neumann y Dirichlet">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="255.0" fitWidth="594.0" layoutX="4.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/MEF8-1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_next_ensm2" onAction="#ScenetoEnsamblaje2" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>
