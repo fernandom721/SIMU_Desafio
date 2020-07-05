@@ -102,6 +102,6 @@
         </tabs>
       </TabPane>
       <Label layoutX="286.0" layoutY="63.0" text="Matriz H" />
-      <Button fx:id="btn_next_mef6p3" onAction="#ScenetoMEF6p3" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="btn_next_mef6p3" onAction="#ScenetoMEF6p3" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" text="Back" />
    </children>
 </AnchorPane>
